@@ -9,3 +9,9 @@ We derive 3 multiple choice tasks from wikiHow. The training data and benchmark 
 1. *Step Inference*. Given a prompt goal and 4 candidate steps, choose the step that helps achieve the goal.
 2. *Goal Inference*. Given a prompt step and 4 candidate goals, choose the correct goal which the step helps achieve.
 3. *Step Ordering*. Given a prompt goal and 2 steps, determine which step temporally precedes the other.
+
+## Pretrained Models
+All our models are implemented using [HuggingFace Transformers](https://github.com/huggingface/transformers) and are hosted on its model hub. You can find the models [here](https://huggingface.co/zharry29). To use our pretrained models, simply install the library and import our models. A model is named as `zharry29/[task]\_benchmark\_[modelName]`:
+- [task] is `step` for Step Inference, `goal` for Goal Inference, and `order` for Step Ordering. 
+- [modelName] is `roberta` for RoBERTa, `bert` for BERT, `xlnet` for XLNet, and `gpt` for GPT-2. 
+For example, `zharry29/goal_benchmark_roberta` is the name for the RoBERTa model pretrained on the training data of the Goal Inference task.
