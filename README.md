@@ -1,15 +1,5 @@
 # Goal-Step Reasoning with WikiHow
-This repository contains data and code accompanying the paper "Reasoning about Goals, Steps, and Temporal Ordering with WikiHow" by Lyu Qing, Li Zhang and Chris Callison-Burch. If you use our resources, please cite the following paper:
-```
-@misc{lyu2020reasoning,
-    title={Reasoning about Goals, Steps, and Temporal Ordering with WikiHow},
-    author={Qing Lyu and Li Zhang and Chris Callison-Burch},
-    year={2020},
-    eprint={2009.07690},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL}
-}
-```
+This repository contains data and code accompanying the paper "Reasoning about Goals, Steps, and Temporal Ordering with WikiHow" by Lyu Qing, Li Zhang and Chris Callison-Burch. 
 
 ## WikiHow Corpus
 We crawled the [wikiHow](https://www.wikihow.com/Main-Page) website as of July 2020, and release the resulting **wikiHow Corpus** [here](https://drive.google.com/drive/folders/1JF_1lbfCflXW7WLzzkLWinfiaHd8Rhdr?usp=sharing). Each article is represented by a json file, including information such as title,  url, description, category, methods or parts, step headline, step description, author information, time last updated, rating, videos, related articles, tips and warnings, Q&A, references, quizzes, links to other languages, related articles, etc. 
@@ -25,3 +15,15 @@ All our models are implemented using [HuggingFace Transformers](https://github.c
 - [task] is `step` for Step Inference, `goal` for Goal Inference, and `order` for Step Ordering. 
 - [modelName] is `roberta` for RoBERTa, `bert` for BERT, `xlnet` for XLNet, and `gpt` for GPT-2. 
 For example, `zharry29/goal_benchmark_roberta` is the name for the RoBERTa model pretrained on the training data of the Goal Inference task.
+
+If you use our resources, please cite the following paper:
+```
+@misc{lyu2020reasoning,
+    title={Reasoning about Goals, Steps, and Temporal Ordering with WikiHow},
+    author={Qing Lyu and Li Zhang and Chris Callison-Burch},
+    year={2020},
+    eprint={2009.07690},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+}
+```
