@@ -13,7 +13,8 @@ The negative candidates are sampled using an approach based on semantic similari
 
 ## Pretrained Models
 [This notebook](https://colab.research.google.com/drive/1YlUCZaF8PB_3VtkudU4JLbTjAKbfoP5V) demonstrates how to load and use our pretrained models. It is recommended that you run the notebook using Google Colab to avoid dependency issues.
-All our models are implemented using [HuggingFace Transformers](https://github.com/huggingface/transformers) and are hosted on its model hub. You can find the models [here](https://huggingface.co/zharry29). To use our pretrained models, simply install the library (and its dependencies) and import our models. A model is named as `zharry29/[task]_benchmark_[modelName]`:
+
+All our models are implemented using [HuggingFace Transformers](https://github.com/huggingface/transformers) and are hosted on its model hub. You can find the models [here](https://huggingface.co/zharry29). To find hyperparameters, open the link, click on the model name, click on "List all files in model", and then load `training_args.bin` using PyTorch. To use our pretrained models, simply install the library (and its dependencies) and import our models. A model is named as `zharry29/[task]_benchmark_[modelName]`:
 - [task] is `step` for Step Inference, `goal` for Goal Inference, and `order` for Step Ordering. 
 - [modelName] is `roberta` for RoBERTa, `bert` for BERT, `xlnet` for XLNet, and `gpt` for GPT-2. 
 For example, `zharry29/goal_benchmark_roberta` is the name for the RoBERTa model pretrained on the training data of the Goal Inference task. 
