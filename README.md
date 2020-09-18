@@ -9,6 +9,7 @@ We derive 3 multiple choice tasks from wikiHow. The training data and benchmark 
 1. *Step Inference*. Given a prompt goal and 4 candidate steps, choose the step that helps achieve the goal.
 2. *Goal Inference*. Given a prompt step and 4 candidate goals, choose the correct goal which the step helps achieve.
 3. *Step Ordering*. Given a prompt goal and 2 steps, determine which step temporally precedes the other.
+The negative candidates are sampled using an approach based on semantic similarity, and the code to do so is NOT included here. Please read our paper for more details, and contact us for special need of said code. 
 
 ## Pretrained Models
 [This notebook](wikihow_train_eval_code.ipynb) demonstrates how to load and use our pretrained models. It is recommended that you run the notebook using Google Colab [here](https://colab.research.google.com/drive/1YlUCZaF8PB_3VtkudU4JLbTjAKbfoP5V).
