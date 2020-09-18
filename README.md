@@ -12,7 +12,7 @@ We derive 3 multiple choice tasks from wikiHow. The training data and benchmark 
 The negative candidates are sampled using an approach based on semantic similarity, and the code to do so is NOT included here. Please read our paper for more details, and contact us for special need of said code. 
 
 ## Pretrained Models
-[This notebook](wikihow_train_eval_code.ipynb) demonstrates how to load and use our pretrained models. It is recommended that you run the notebook using Google Colab [here](https://colab.research.google.com/drive/1YlUCZaF8PB_3VtkudU4JLbTjAKbfoP5V).
+[This notebook](https://colab.research.google.com/drive/1YlUCZaF8PB_3VtkudU4JLbTjAKbfoP5V) demonstrates how to load and use our pretrained models. It is recommended that you run the notebook using Google Colab to avoid dependency issues.
 All our models are implemented using [HuggingFace Transformers](https://github.com/huggingface/transformers) and are hosted on its model hub. You can find the models [here](https://huggingface.co/zharry29). To use our pretrained models, simply install the library (and its dependencies) and import our models. A model is named as `zharry29/[task]_benchmark_[modelName]`:
 - [task] is `step` for Step Inference, `goal` for Goal Inference, and `order` for Step Ordering. 
 - [modelName] is `roberta` for RoBERTa, `bert` for BERT, `xlnet` for XLNet, and `gpt` for GPT-2. 
