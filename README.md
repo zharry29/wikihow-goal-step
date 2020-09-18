@@ -1,5 +1,5 @@
 # Goal-Step Reasoning with WikiHow
-This repository contains data and code accompanying the paper "Reasoning about Goals, Steps, and Temporal Ordering with WikiHow" by Lyu Qing, Li Zhang and Chris Callison-Burch. 
+This repository contains pointers to data and models accompanying the paper "Reasoning about Goals, Steps, and Temporal Ordering with WikiHow" by Lyu Qing, Li Zhang and Chris Callison-Burch. 
 
 ## WikiHow Corpus
 We crawled the [wikiHow](https://www.wikihow.com/Main-Page) website as of July 2020, and release the resulting **wikiHow Corpus** [here](https://drive.google.com/drive/folders/1JF_1lbfCflXW7WLzzkLWinfiaHd8Rhdr?usp=sharing). Each article is represented by a json file, including information such as title,  url, description, category, methods or parts, step headline, step description, author information, time last updated, rating, videos, related articles, tips and warnings, Q&A, references, quizzes, links to other languages, related articles, etc. 
