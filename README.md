@@ -21,12 +21,17 @@ For example, `zharry29/goal_benchmark_roberta` is the name for the RoBERTa model
 
 If you use our resources, please cite the following paper:
 ```
-@misc{lyu2020reasoning,
-    title={Reasoning about Goals, Steps, and Temporal Ordering with WikiHow},
-    author={Qing Lyu and Li Zhang and Chris Callison-Burch},
-    year={2020},
-    eprint={2009.07690},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL}
+@inproceedings{zhang-etal-2020-reasoning,
+    title = "Reasoning about Goals, Steps, and Temporal Ordering with {W}iki{H}ow",
+    author = "Zhang, Li  and
+      Lyu, Qing  and
+      Callison-Burch, Chris",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.emnlp-main.374",
+    pages = "4630--4639",
 }
 ```
