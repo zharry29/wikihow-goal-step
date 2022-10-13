@@ -1,4 +1,4 @@
 # Are the steps in wikiHow articles ordered?
 As discussed in the paper, some wikiHow articles contain ordered the steps, while some do not. Empirically, we find that a _part_ or _method_ of a wikiHow article is the most granular passage where the steps are either ordered or not. 
 
-We had 3 annotators annotate 100 parts/methods based on whether their parts are ordered, shown in `ordering_annotations_1000.csv`. We then train a high-precision RoBERTa model to predict whether all other wikiHow parts/methods are ordered. The predictions are a part of our later wikiHow Script Corpus [repo](https://github.com/zharry29/wikihow-goal-step)[data](https://drive.google.com/file/d/1AqAocrNFEPhBAfa5ATCj-3xMWbq659ME/view).
+We had 3 annotators annotate 100 parts/methods based on whether their parts are ordered, shown in `ordering_annotations_1000.csv`. We then train a high-precision RoBERTa model to predict whether all other wikiHow parts/methods are ordered. The predictions are a part of our later wikiHow Script Corpus [repo](https://github.com/zharry29/wikihow-goal-step) [data](https://drive.google.com/file/d/1AqAocrNFEPhBAfa5ATCj-3xMWbq659ME/view).
